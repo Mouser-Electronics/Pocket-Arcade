@@ -26,7 +26,7 @@ device_raw_mousetype[1] pnp
 device_raw_mousetype[2] pnp
 device_raw_mousetype[3] pnp
 device_sdl_samples 512
-device_sound auto
+device_sound none
 device_video fb
 device_video_cursor auto
 device_video_doublescan yes
