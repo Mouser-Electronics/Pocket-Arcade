@@ -8,3 +8,7 @@ StartUSBNetwork.sh is a simple script that will setup your PocketBeagle to conec
 
 advmame.rc is the modified configuration file. You will need to either add this file or replace this file at /home/debian/.advance
 
+
+
+Mouser Project BOM link - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=4c7bc987e1
+Pricing will vary depending on size of display you choose. 
