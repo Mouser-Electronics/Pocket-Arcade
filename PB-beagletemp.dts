@@ -300,6 +300,10 @@
 					&P2_20_gpio_pu_pin	/* one */
 					&P2_22_gpio_pu_pin	/* esc */
 					&P2_24_gpio_pu_pin	/* five */
+					&P1_02_gpio_pu_pin	/* L-ctrl */
+					&P1_34_gpio_pu_pin	/* L-alt */
+					&P2_33_gpio_pu_pin	/* space */
+					&P2_35_gpio_pu_pin	/* L-shift */
 				>;
 		
 				left {
@@ -348,6 +352,30 @@
 					label = "enter";
 					linux,code = <28>;
 					gpios = <&gpio1 15 GPIO_ACTIVE_LOW>;
+				};
+				
+				L-ctrl {
+					label = "L-ctrl";
+					linux,code = <29>;
+					gpios = <&gpio2 23 GPIO_ACTIVE_LOW>;
+				};
+				
+				L-alt {
+					label = "L-alt";
+					linux,code = <56>;
+					gpios = <&gpio0 26 GPIO_ACTIVE_LOW>;
+				};
+				
+				space {
+					label = "space";
+					linux,code = <57>;
+					gpios = <&gpio1 13 GPIO_ACTIVE_LOW>;
+				};
+				
+				L-shift {
+					label = "L-shift";
+					linux,code = <42>;
+					gpios = <&gpio2 22 GPIO_ACTIVE_LOW>;
 				};
 			};
 		
