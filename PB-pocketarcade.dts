@@ -64,7 +64,6 @@
 				status = "okay";
 				pinctrl-names = "default";
 				pinctrl-0 = <>;
-
 				
 
 				P1_20 {
@@ -187,15 +186,6 @@
 					dir-changeable;
 				};
 
-
-
-				P2_29 {
-					gpio-name = "P2_29";
-					gpio = <&gpio0 7 0>;
-					input;
-					dir-changeable;
-				};
-
 				P2_28 {
 					gpio-name = "P2_28";
 					gpio = <&gpio3 20 0>;
@@ -231,7 +221,6 @@
 					dir-changeable;
 				};
 
-				
 
 				P2_34 {
 					gpio-name = "P2_34";
@@ -239,8 +228,6 @@
 					input;
 					dir-changeable;
 				};
-
-				
 			};
 		};
 	};
