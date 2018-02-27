@@ -36,10 +36,10 @@
 			P2_20_pinmux { status = "disabled"; };	/* keys - one */
 			P2_22_pinmux { status = "disabled"; };	/* keys - esc */
 			P2_24_pinmux { status = "disabled"; };	/* keys - five */
-			P2_28_pinmux { status = "disabled"; };  /* keys - A */
-			P2_30_pinmux { status = "disabled"; };  /* keys - B */
-			P2_32_pinmux { status = "disabled"; };  /* keys - X */
-			P2_34_pinmux { status = "disabled"; };  /* keys - Y */
+			P1_02_pinmux { status = "disabled"; };  /* keys - A */
+			P1_34_pinmux { status = "disabled"; };  /* keys - B */
+			P2_33_pinmux { status = "disabled"; };  /* keys - X */
+			P2_35_pinmux { status = "disabled"; };  /* keys - Y */
 		};
 	};
 
@@ -65,12 +65,7 @@
 				pinctrl-names = "default";
 				pinctrl-0 = <>;
 
-				P1_02 {
-					gpio-name = "P1_02";
-					gpio = <&gpio2 23 0>;
-					input;
-					dir-changeable;
-				};
+				
 
 				P1_20 {
 					gpio-name = "P1_20";
@@ -128,12 +123,6 @@
 					dir-changeable;
 				};
 
-				P1_34 {
-					gpio-name = "P1_34";
-					gpio = <&gpio0 26 0>;
-					input;
-					dir-changeable;
-				};
 
 				P1_35 {
 					gpio-name = "P1_35";
@@ -207,7 +196,26 @@
 					dir-changeable;
 				};
 
+				P2_28 {
+					gpio-name = "P2_28";
+					gpio = <&gpio3 20 0>;
+					input;
+					dir-changeable;
+				};
 
+				P2_29 {
+					gpio-name = "P2_29";
+					gpio = <&gpio0 7 0>;
+					input;
+					dir-changeable;
+				};
+
+				P2_30 {
+					gpio-name = "P2_30";
+					gpio = <&gpio3 17 0>;
+					input;
+					dir-changeable;
+				};
 
 				P2_31 {
 					gpio-name = "P2_31";
@@ -216,23 +224,23 @@
 					dir-changeable;
 				};
 
-
-
-				P2_33 {
-					gpio-name = "P2_33";
-					gpio = <&gpio1 13 0>;
+				P2_32 {
+					gpio-name = "P2_32";
+					gpio = <&gpio3 16 0>;
 					input;
 					dir-changeable;
 				};
 
+				
 
-
-				P2_35 {
-					gpio-name = "P2_35";
-					gpio = <&gpio2 22 0>;
+				P2_34 {
+					gpio-name = "P2_34";
+					gpio = <&gpio3 19 0>;
 					input;
 					dir-changeable;
 				};
+
+				
 			};
 		};
 	};
@@ -301,10 +309,10 @@
 					&P2_20_gpio_pu_pin	/* one */
 					&P2_22_gpio_pu_pin	/* esc */
 					&P2_24_gpio_pu_pin	/* five */
-					&P2_28_gpio_pu_pin	/* A */
-					&P2_30_gpio_pu_pin	/* B */
-					&P2_32_gpio_pu_pin	/* X */
-					&P2_34_gpio_pu_pin	/* Y */
+					&P1_02_gpio_pu_pin	/* A */
+					&P1_34_gpio_pu_pin	/* B */
+					&P2_33_gpio_pu_pin	/* X */
+					&P2_35_gpio_pu_pin	/* Y */
 				>;
 		
 				left {
@@ -358,25 +366,25 @@
 				A {
 					label = "A";
 					linux,code = <30>;
-					gpios = <&gpio3 20 GPIO_ACTIVE_LOW>;
+					gpios = <&gpio2 23 GPIO_ACTIVE_LOW>;
 				};
 				
 				B {
 					label = "B";
 					linux,code = <48>;
-					gpios = <&gpio3 17 GPIO_ACTIVE_LOW>;
+					gpios = <&gpio0 26 GPIO_ACTIVE_LOW>;
 				};
 				
 				X {
 					label = "X";
 					linux,code = <45>;
-					gpios = <&gpio3 16 GPIO_ACTIVE_LOW>;
+					gpios = <&gpio1 13 GPIO_ACTIVE_LOW>;
 				};
 				
 				Y {
 					label = "Y";
 					linux,code = <21>;
-					gpios = <&gpio3 19 GPIO_ACTIVE_LOW>;
+					gpios = <&gpio2 22 GPIO_ACTIVE_LOW>;
 				};
 			};
 		
