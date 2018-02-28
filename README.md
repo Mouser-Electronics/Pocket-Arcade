@@ -16,9 +16,9 @@ is a simple script that the advmame.service calls out to start a specific ROM, t
 
 ## advmame.service
 startup service to boot advmame and specified ROM on powerup. Needs to be placed in /lib/systemd/system
-to enable and start service using the following commands
-sudo systemctl enable advmame.service
-sudo systemctl start advmame.service
+to enable and start service using the following commands,
+ - sudo systemctl enable advmame.service
+ - sudo systemctl start advmame.service
 
 ### Mouser Project BOM link 
 https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=4c7bc987e1
