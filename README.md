@@ -17,5 +17,6 @@ is a simple script that the advmame.service calls out to start a specific ROM, t
 ## advmame.service
 startup service to boot advmame and specified ROM on powerup. Needs to be placed in /lib/systemd/system
 
-Mouser Project BOM link - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=4c7bc987e1
-Pricing will vary depending on size of display you choose. 
+### Mouser Project BOM link 
+https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=4c7bc987e1
+Pricing will vary depending on options. 
