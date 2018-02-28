@@ -5,6 +5,24 @@
  * it under the terms of the GNU General Public License version 2 as
  * published by the Free Software Foundation.
  */
+ 
+ /*
+ * Adafruit PiGRRL GamePad to PocketBeagle Button/Pin assignments
+ * All signals are Active Low and a ground will need to be connected
+ * enter and esc are used in this project
+ *
+ * UP	 	- Pin 36	to 	P2_06
+ * DOWN 	- Pin 37	to 	P2_02
+ * LEFT 	- Pin 7		to 	P2_08
+ * RIGHT	- Pin 35	to 	P2_04
+ * SELECT	- Pin 29	to 	P2_24
+ * START	- Pin 31	to 	P2_20
+ * A		- Pin 8		to 	P1_02
+ * B		- Pin 10	to 	P1_34
+ * X		- Pin 38	to 	P2_33
+ * Y 		- Pin 12	to 	P2_35
+ */
+ 
 /dts-v1/;
 /plugin/;
 
