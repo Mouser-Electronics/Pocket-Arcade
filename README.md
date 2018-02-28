@@ -2,7 +2,7 @@
 Retro Arcade using the Pocket Beagle
 
 
-PB-simplegaming.dts is the device tree overlay. This file is already available for the most recent distribution of IoT Stretch. Located in /lib/firmware. Please note this overlay is written for the 1.8" display
+PB-beaglearcade.dts is the device tree overlay. This file sets the display type and GPIO's necessary for the 2.8" TFT LCD and Gamepad. You will need to compile the overlay to a .dtbo and place the file in the /lib/firmware folder
 
 StartUSBNetwork.sh is a simple script that will setup your PocketBeagle to connect to the internet over a shared network connection using the micro USB.
 
