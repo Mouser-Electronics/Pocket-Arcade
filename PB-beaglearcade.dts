@@ -9,7 +9,7 @@
  /*
  * Adafruit PiGRRL GamePad to PocketBeagle Button/Pin assignments
  * All signals are Active Low and a ground will need to be connected
- * enter and esc are used in this project
+ * enter and esc are not used in this project
  *
  * UP	 	- Pin 36	to 	P2_06
  * DOWN 	- Pin 37	to 	P2_02
