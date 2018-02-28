@@ -74,7 +74,7 @@ display_resizeeffect auto
 display_restore yes
 display_rgbeffect none
 display_rol no
-display_ror no
+display_ror yes
 display_scanlines no
 display_skipcolumns auto
 display_skiplines auto
