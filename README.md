@@ -15,7 +15,7 @@ is the modified configuration file. You will need to either add this file or rep
 is a simple script that the advmame.service calls out to start a specific ROM, this will allow you to edit this script if you choose to change ROM's
 
 ## advmame.service
-startup service to boot advmame and specified ROM on powerup. Needs to be placed in /lib/systemd/system
+startup service to boot advmame and specified ROM on powerup. Needs to be placed in /lib/systemd/system.
 to enable and start service using the following commands,
  - sudo systemctl enable advmame.service
  - sudo systemctl start advmame.service
