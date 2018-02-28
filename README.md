@@ -3,7 +3,7 @@ Retro Arcade using the Pocket Beagle
 
 
 ## PB-beaglearcade.dts 
-is the device tree overlay. This file sets the display type and GPIO's necessary for the 2.8" TFT LCD and Gamepad. You will need to compile the overlay to a .dtbo and place the file in the /lib/firmware folder
+is the device tree overlay. This file sets the display type and GPIO's necessary for the 2.8" TFT LCD and Gamepad. You will need to compile the overlay to a .dtbo and place the file in the /lib/firmware folder. (You can use the provided .dtbo file in place of compiling your own)
 
 ## StartUSBNetwork.sh 
 is a simple script that will setup your PocketBeagle to connect to the internet over a shared network connection using the micro USB.
