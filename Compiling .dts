@@ -1,3 +1,5 @@
+##Instructions for cloning the bb.org-overlays and compiling .dts to .dtbo
+
 debian@beaglebone:/opt/git_repo git clone https://github.com/beagleboard/bb.org-overlays 
 
 debian@beaglebone:/opt/git_repo cd ./bb.org-overlays/ 
@@ -6,7 +8,7 @@ debian@beaglebone:/opt/git_repo/bb.org-overlays sudo nano src/arm/EBB-GPIO-Examp
 
 <copy your code block in> 
 
-debian@beaglebone:/opt/git_repo/bb.org-overlays sudo make src/arm/EBB-GPIO-Example.dtbo o0i
+debian@beaglebone:/opt/git_repo/bb.org-overlays sudo make src/arm/EBB-GPIO-Example.dtbo 
   DTC     src/arm/EBB-GPIO-Example.dtbo 
 
 debian@beaglebone:/opt/git_repo/bb.org-overlays$ ls -lh src/arm/EBB-GPIO-Example.dt* 
